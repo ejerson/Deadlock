@@ -130,7 +130,8 @@ public class TerrainView extends View {
    */
   public synchronized void setSource(Breed[][] source) {
     this.source = source;
-    postInvalidate();
+    postInvalidate(); // can be called from non-UI Thread in order to tell android to update our
+                      // TerrainView after some changes are made to it.
   }
 
 }
