@@ -4,7 +4,7 @@
  * between the view and the model structure of this app.
  *
  * @author Ejerson Balabas
- * 
+ *
  * @version 1.0, 2017-10-20
  */
 package edu.cnm.deepdive.ca.rock_paper_scissor.controllers;

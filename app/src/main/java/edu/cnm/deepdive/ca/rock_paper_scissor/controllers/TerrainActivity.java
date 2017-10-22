@@ -160,7 +160,11 @@ public class TerrainActivity extends AppCompatActivity {
     }
   }
 
-  // TODO - Understand what the Runner class is doing
+  /**
+   * Determines the state of the thread created by the Runner class
+   * and setting the thread to rest or sleep based upon condition.
+   *
+   */
   private class Runner extends Thread {
 
     @Override
